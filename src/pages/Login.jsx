@@ -26,10 +26,7 @@ export default function Login() {
           />
           <button
             type="submit"
-            className="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700"
-          >
-            Entrar
-          </button>
+            className="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700">Entrar</button>
         </form>
 
         <p className="text-sm text-center mt-4">

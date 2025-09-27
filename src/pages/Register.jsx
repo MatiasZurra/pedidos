@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
+
 
 export default function Register() {
   const [roles, setRoles] = useState([]);
@@ -68,6 +70,10 @@ export default function Register() {
             Registrarse
           </button>
         </form>
+         <p className="text-sm text-center mt-4">
+          ¿Tenés cuenta?{" "}
+          <Link to="/login" className="text-blue-600">Ingresa</Link>
+        </p>
       </div>
     </div>
   );
